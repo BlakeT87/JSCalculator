@@ -1,0 +1,24 @@
+body{
+    margin: 20px auto;
+    max-width: 200px;
+}
+#calc-frame{
+    background-color: darkslategray;
+    padding: 20px;
+}
+h1{
+    height: 80px;
+    background-color: lightgoldenrodyellow;
+}
+
+.button {
+    background-color: grey;
+    color: white;
+}
+#button-grid {
+    display: grid;
+    grid-template-areas: "a a a a";
+    grid-auto-rows: 50px;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
